@@ -1,6 +1,6 @@
 run <- function(x) {
     # convert inputs
-    x <- as.integer(x)
+    x <- as.numeric(x)
     # end convert inputs
     
     payload <- jsonlite::toJSON(list(result = x^2),
