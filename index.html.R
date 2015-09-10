@@ -62,7 +62,7 @@ run <- function(white, black, choice, ...) {
     out("<title> Click the one which is easier to read </title>")
     out("Click the one which is easier to read<p>")
     oinput("white", type = "image", 
-           src = paste0("http://52.24.20.237/rserve-surf/example8_ggplot2.png?", 
+           src = paste0("http://52.27.26.223/rserve-surf/example8_ggplot2.png?", 
                         "text_colour=FFFFFF", 
                         paste0("&HEX=", HEX)
            )
@@ -74,7 +74,7 @@ run <- function(white, black, choice, ...) {
     
     out("<form>")
     oinput("black", type = "image", 
-           src = paste0("http://52.24.20.237/rserve-surf/example8_ggplot2.png?", 
+           src = paste0("http://52.27.26.223/rserve-surf/example8_ggplot2.png?", 
                         "text_colour=000000", 
                          paste0("&HEX=", HEX)
                         )
@@ -85,7 +85,7 @@ run <- function(white, black, choice, ...) {
     out("</form>")
     
     # link to train model
-    out("<a href = http://52.24.20.237/rserve-surf/example9_fit_model.r>Train model!</a><p>")
+    out("<a href = http://52.27.26.223/rserve-surf/example9_fit_model.r>Train model!</a><p>")
     out("<a href = http://harthur.github.io/brain/>With thanks to brain.js for the idea</a>")
     
     done()

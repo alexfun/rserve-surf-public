@@ -48,7 +48,7 @@ run <- function(hex, r, g, b, model_number = 0){
    # now use existing ggplot to construct output 
     out(paste0("Based on your choice of R: ", r, ", G: ", g, ", B: ", b, 
                ", the optimal text colour is ", text_colour_printed, "<p>"))
-    out(paste0("<img src=", paste0("http://52.24.20.237/rserve-surf/example8_ggplot2.png?", 
+    out(paste0("<img src=", paste0("http://52.27.26.223/rserve-surf/example8_ggplot2.png?", 
                         "text_colour=", text_colour,  
                         paste0("&HEX=", HEX)), ">")
     )
